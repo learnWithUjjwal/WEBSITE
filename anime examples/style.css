@@ -1,0 +1,47 @@
+@keyframes bgchange{
+	from{
+		left:0px;
+		top:0;
+	}
+	to{
+		left:10px;
+		top:10px;
+	}
+}
+
+@keyframes casechange{
+	from{
+
+	}
+	to{
+		text-transform: uppercase;
+	}
+}
+.container{
+	width:50%;
+	margin:auto;
+}
+.container img{
+	position:relative;
+	animation-name: bgchange;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.hand{
+	    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.fran{
+	padding:5px;
+	color:white;
+	/*text-transform: uppercase;*/
+	background-color: #25a45b;
+	display:inline-block;
+	animation-name: casechange;
+	animation-direction: alternate-reverse;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
